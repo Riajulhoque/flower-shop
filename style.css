@@ -126,6 +126,7 @@ FButton{
 }
 #HotDeal{
   background: rgba(229, 84, 115, 0.05);
+  margin-bottom: 80px;
   .container{
     width: calc(1920px-240*2);
     margin: 0px 240px;
@@ -157,5 +158,30 @@ FButton{
     .HotDealImg{
       align-items: center;
     }
+  }
+}
+#InstagramCard{
+  margin-top: 80px;
+  h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  p{
+    margin-top: 40px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .container{
+    width: calc(1920px-240*2);
+    margin: 0px 240px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 80px;
   }
 }
