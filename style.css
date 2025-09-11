@@ -51,3 +51,54 @@ FButton{
     }
   }
 }
+#FeaturedFlowers{
+  width: calc(1920px-230*2);
+  margin: 0px 240px;
+  padding-bottom: 50px;
+  h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  p{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .container{
+    display: flex;
+    justify-content: space-between;
+    .Fcard{
+      .card{
+        width: 460px;
+        height: 540px;
+        background-color: #E55473;
+        text-align: center;
+        padding-top: 50px;
+        margin-top: 30px;
+        /* padding: 100px 50px 0px 50px; */
+        border-radius: 50% 50% 0% 0%;
+        margin-bottom: 30px;
+        img{
+          margin-top: 50px;
+        }
+      }
+      h3{
+          color: #272727;
+          text-align: center;
+          font-size: 24px;
+          font-weight: 700;
+          text-decoration-line: underline;
+          text-decoration-style: solid;
+          text-decoration-thickness: auto;
+          text-underline-offset: auto;
+          text-underline-position: from-font;
+        }
+    }
+    
+  }
+}
