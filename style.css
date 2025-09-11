@@ -185,3 +185,43 @@ FButton{
     margin-bottom: 80px;
   }
 }
+#EmailCollection{
+  margin: 200px 0px;
+  .container{
+    width: calc(1920px-240*2);
+    height: 449px;
+    margin: 0px 240px;
+    border-radius: 8px;
+    background-image: url(./Asset/Rectangle\ 9.png);
+    h2{
+      color: #272727;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 800;
+      padding-top: 125px;
+    }
+    p{
+      margin-top: 20px;
+      margin-bottom: 50px;
+      color: rgba(39, 39, 39, 0.60);
+      text-align: center;
+      font-size: 18px;
+      font-weight: 400;
+    }
+    .emailC{
+      display: flex;
+      margin-left: 350px;
+      input{
+        /* margin-left: 20px; */
+        width: 50%;
+        padding: 20px;
+        border-radius: 8px;
+        border: none;
+        /* gap: 20px; */
+      }
+      FButton{
+        margin-left: 20px;
+      }
+    }
+  }
+}
