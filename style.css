@@ -124,3 +124,38 @@ FButton{
     }
   }
 }
+#HotDeal{
+  background: rgba(229, 84, 115, 0.05);
+  .container{
+    width: calc(1920px-240*2);
+    margin: 0px 240px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 80px 0px;
+    .HotDealText{
+      width: 60%;
+      h2{
+        color: #272727;
+        font-size: 40px;
+        font-weight: 800;
+        span{
+          color: #E55473;
+        }
+      }
+      p{
+        margin-top: 40px;
+        margin-bottom: 60px;
+        color: rgba(39, 39, 39, 0.60);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+    .HotDealImg{
+      align-items: center;
+    }
+  }
+}
